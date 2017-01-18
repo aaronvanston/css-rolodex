@@ -1,0 +1,9 @@
+{
+  "presets": ["airbnb", "stage-1"],
+  "plugins": [
+    [ "babel-root-import", [{
+     "rootPathPrefix": "~",
+     "rootPathSuffix": "src"
+   }]]
+  ]
+}
