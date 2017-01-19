@@ -1,0 +1,15 @@
+@import 'variables';
+
+:root {
+  --search-text-color: #bfc0c8;
+}
+
+.search {
+  height: var(--header-height);
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--search-text-color);
+}

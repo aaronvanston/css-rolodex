@@ -1,0 +1,10 @@
+@import 'variables';
+
+.aside {
+  width: var(--aside-width);
+  background-color: var(--secondary-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}

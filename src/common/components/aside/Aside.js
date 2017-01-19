@@ -1,10 +1,12 @@
 import React from 'react';
 
+import { Header } from '~/common/components';
+
+import styles from './Aside.css';
+
 const Aside = () => (
-  <aside>
-    <header>
-      HEADER
-    </header>
+  <aside className={styles.aside}>
+    <Header />
 
     <nav>
       <ul>

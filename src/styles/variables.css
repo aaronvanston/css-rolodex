@@ -1,3 +1,19 @@
 :root {
-  --body-background-color: red;
+  /* Global Colors */
+  --primary-color: #f4715b;
+  --secondary-color: #434559;
+  --tertiary-color: #e8edf4;
+
+  --light-ui-color: #e0e0e0;
+
+  /* Component sizes */
+  --aside-width: 16rem;
+  --header-height: 5rem;
+
+  /* Component Colors */
+  --property-color: #6daafa;
+  --selector-color: #f55f85;
+  --group-color: #c2fb84;
+  --cheatsheet-color: #fe9e84;
+
 }
