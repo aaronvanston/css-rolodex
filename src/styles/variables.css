@@ -1,5 +1,5 @@
 :root {
-  /* Global Colors */
+  /* Global colors */
   --primary-color: #f4715b;
   --secondary-color: #434559;
   --tertiary-color: #e8edf4;
@@ -9,9 +9,18 @@
   --aside-width: 16rem;
   --header-height: 5rem;
 
-  /* Component Colors */
+  /* Component colors */
   --property-color: #6daafa;
   --selector-color: #f55f85;
   --group-color: #c2fb84;
   --cheatsheet-color: #fe9e84;
+
+  /* Font family */
+  --base-font-family: 'Nunito', sans-serif;
+  --base-font-size: 14px;
+
+  /* Font weights */
+  --light-font-weight: 300;
+  --base-font-weight: 400;
+  --bold-font-weight: 700;
 }
