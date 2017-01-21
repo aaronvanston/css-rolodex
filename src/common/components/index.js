@@ -5,5 +5,5 @@ export Error from './error/Error';
 export Header from './header/Header';
 export Icon from './icon/Icon';
 export Search from './search/Search';
-export SectionIndex from './sectionIndex/SectionIndex';
 export Section from './section/Section';
+export SectionIndex from './sectionIndex/SectionIndex';
