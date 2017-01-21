@@ -3,7 +3,6 @@
   --primary-color: #f4715b;
   --secondary-color: #434559;
   --tertiary-color: #e8edf4;
-
   --light-ui-color: #e0e0e0;
 
   /* Component sizes */
@@ -15,5 +14,4 @@
   --selector-color: #f55f85;
   --group-color: #c2fb84;
   --cheatsheet-color: #fe9e84;
-
 }

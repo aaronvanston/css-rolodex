@@ -1,15 +1,15 @@
 import React, { PropTypes } from 'react';
 
+import styles from './Section.css';
+
 const SectionIndex = props => (
-  <div>
-    <h1>Section: {props.params.section}</h1>
+  <div className={styles.section}>
+    {props.children}
   </div>
-);
+  );
 
 SectionIndex.propTypes = {
-  params: PropTypes.shape({
-    section: PropTypes.string,
-  }),
+  children: PropTypes.element,
 };
 
 export default SectionIndex;
