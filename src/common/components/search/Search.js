@@ -1,13 +1,18 @@
 import React from 'react';
 
-import { Icon } from '~/common/components';
+import { Icon, SearchSuggest } from '~/common/components';
 
 import styles from './Search.css';
 
 const Search = () => (
   <div className={styles.search}>
-    <Icon name="search" />
-    Search
+    <div className={styles.inputGroup}>
+      <Icon name="search" />
+
+      <label htmlFor="search" className={styles.label}>Search CSS Rolodex</label>
+
+      <SearchSuggest />
+    </div>
   </div>
 );
 

@@ -2,6 +2,17 @@
 @import './typography';
 @import './variables.css';
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: var(--secondary-color);
+  color: var(--text-base-color);
 }

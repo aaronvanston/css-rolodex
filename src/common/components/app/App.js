@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-import { Aside, Search } from '~/common/components';
+import { Aside, Search, SocialLinks } from '~/common/components';
 
 import styles from './App.css';
 
@@ -9,7 +9,10 @@ const App = props => (
     <Aside />
 
     <section className={styles.content}>
-      <Search />
+      <div className={styles.searchWrapper}>
+        <Search />
+        {/* <SocialLinks /> */}
+      </div>
 
       <main className={styles.main}>
         {props.children}

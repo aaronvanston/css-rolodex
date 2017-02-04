@@ -17,3 +17,10 @@
   background-color: var(--light-ui-color);
   flex: 1;
 }
+
+.searchWrapper {
+  height: var(--header-height);
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+}

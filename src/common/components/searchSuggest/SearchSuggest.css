@@ -1,0 +1,89 @@
+@import 'variables';
+@import 'mixins';
+
+.container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.containerOpen {
+
+}
+
+.input {
+  width: 100%;
+  padding-left: 3.5rem;
+  border: none;
+  background-color: transparent;
+  line-height: var(--header-height);
+  font-family: var(--heading-font-family);
+  font-weight: var(--light-font-weight);
+  color: var(--text-base-color);
+
+  &::placeholder {
+    color: var(--text-placeholder-color);
+  }
+}
+
+.suggestionsContainer {
+  position: relative;
+  bottom: 0;
+  background-color: white;
+}
+
+.suggestionsList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--heading-font-family);
+}
+
+.suggestion {
+  padding: 0.75rem;
+  padding-left: 3.5rem;
+  color: var(--text-base-color);
+  background-color: white;
+  font-size: 1.25rem;
+  border-bottom: 1px solid color(white blackness(4%));
+  transition: var(--normal-transition);
+  cursor: pointer;
+}
+
+.suggesstionWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.suggesstionName {
+  flex: 1 0 auto;
+}
+
+.defaultType {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: color(var(--text-light-color) alpha(20%));
+  font-weight: var(--base-font-weight);
+}
+
+.propertyType {
+  composes: defaultType;
+}
+
+.selectorType {
+  composes: defaultType;
+}
+
+.suggestionFocused {
+  background-color: color(white blackness(4%));
+
+  & .propertyType {
+    color: var(--property-color);
+  }
+
+  & .selectorType {
+    color: var(--selector-color);
+  }
+}
