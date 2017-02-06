@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 
 .aside {
   width: var(--aside-width);
@@ -7,4 +8,65 @@
   top: 0;
   left: 0;
   height: 100%;
+}
+
+.nav {
+  padding-top: 2rem;
+}
+
+.navGroup {
+  @apply --clear-list;
+}
+
+.navLink {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--alt-font-family);
+  font-weight: var(--light-font-weight);
+  letter-spacing: 1px;
+  font-size: 0.875rem;
+  color: color(white alpha(50%));
+  padding-left: 2rem;
+
+  &:hover,
+  &.navLinkActive {
+    background-color: color(black alpha(10%));
+    color: white;
+
+    @nest .properties & {
+      color: var(--property-color);
+    }
+
+    @nest .selectors & {
+      color: var(--selector-color);
+    }
+
+    @nest .groups & {
+      color: var(--group-color);
+    }
+
+    @nest .cheatsheets & {
+      color: var(--cheatsheet-color);
+    }
+  }
+
+  &:active,
+  &:focus {
+    background-color: color(black alpha(20%));
+  }
+}
+
+.navLinkActive {
+  font-weight: var(--base-font-weight);
+}
+
+.linkSeperator {
+  padding-top: 2rem;
+  border-bottom: 1px solid color(white alpha(10%));
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
