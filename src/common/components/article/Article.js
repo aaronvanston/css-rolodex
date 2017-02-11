@@ -1,9 +1,14 @@
 import React, { PropTypes } from 'react';
 
+import { Content } from '~/common/components';
+
 const Article = props => (
   <div>
     <h1>Section: {props.params.section}</h1>
-    <h2>Article: {props.params.article}</h2>
+    <Content
+      section={props.params.section}
+      article={props.params.article}
+    />
   </div>
   );
 

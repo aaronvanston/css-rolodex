@@ -10,7 +10,7 @@ const mainMenuLinks = [{
   url: '/properties',
 }, {
   title: 'Selectors',
-  url: '/selctors',
+  url: '/selectors',
 }, {
   title: 'Groups',
   url: '/groups',

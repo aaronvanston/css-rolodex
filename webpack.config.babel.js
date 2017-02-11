@@ -57,6 +57,9 @@ export default {
     }, {
       test: /\.json$/,
       loader: 'json',
+    }, {
+      test: /\.md/,
+      loader: 'raw',
     }],
   },
 

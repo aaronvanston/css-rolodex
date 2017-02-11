@@ -1,6 +1,7 @@
 export App from './app/App';
 export Article from './article/Article';
 export Aside from './aside/Aside';
+export Content from './content/Content';
 export Error from './error/Error';
 export Header from './header/Header';
 export Icon from './icon/Icon';
@@ -9,3 +10,4 @@ export SearchSuggest from './searchSuggest/SearchSuggest';
 export Section from './section/Section';
 export SectionIndex from './sectionIndex/SectionIndex';
 export SocialLinks from './socialLinks/SocialLinks';
+export Markdown from './markdown/Markdown';

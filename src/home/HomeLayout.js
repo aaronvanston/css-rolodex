@@ -1,7 +1,9 @@
 import React from 'react';
 
-export default () => (
+const HomeLayout = () => (
   <div>
     Homepage
   </div>
 );
+
+export default HomeLayout;
