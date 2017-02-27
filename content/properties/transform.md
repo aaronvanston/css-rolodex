@@ -1,20 +1,19 @@
+---
+title: transform
+group: transforms
+meta:
+  mdn: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+  caniuse: http://caniuse.com/#search=transform
+---
 
-  ---
-  title: transform
-  group: transforms
-  meta:
-    mdn: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
-    caniuse: http://caniuse.com/#search=transform
-  ---
+# transform
+<!--- Introduction for transform, keep it brief and set the overall context -->
 
-  # transform
-  <!--- Introduction for transform, keep it brief and set the overall context -->
+## Syntax
+<!--- Introduce the various syntax for transform -->
 
-  ## Syntax
-  <!--- Introduce the various syntax for transform -->
+### Description
+<!--- For each major section of syntax, provide a description explaining its usage further -->
 
-  ### Description
-  <!--- For each major section of syntax, provide a description explaining its usage further -->
-
-  ### Example
-  <!--- Provide code examples for the syntax block you're currently describing -->
+### Example
+<!--- Provide code examples for the syntax block you're currently describing -->

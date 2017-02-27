@@ -1,20 +1,19 @@
+---
+title: font-family
+group: fonts
+meta:
+  mdn: https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
+  caniuse: http://caniuse.com/#search=font-family
+---
 
-  ---
-  title: font-family
-  group: fonts
-  meta:
-    mdn: https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
-    caniuse: http://caniuse.com/#search=font-family
-  ---
+# font-family
+<!--- Introduction for font-family, keep it brief and set the overall context -->
 
-  # font-family
-  <!--- Introduction for font-family, keep it brief and set the overall context -->
+## Syntax
+<!--- Introduce the various syntax for font-family -->
 
-  ## Syntax
-  <!--- Introduce the various syntax for font-family -->
+### Description
+<!--- For each major section of syntax, provide a description explaining its usage further -->
 
-  ### Description
-  <!--- For each major section of syntax, provide a description explaining its usage further -->
-
-  ### Example
-  <!--- Provide code examples for the syntax block you're currently describing -->
+### Example
+<!--- Provide code examples for the syntax block you're currently describing -->

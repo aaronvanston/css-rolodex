@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 
 const Markdown = ({ markdown }) => {
   const options = {
-    escapeHtml: true,
+    skipHtml: true,
   };
 
   return (

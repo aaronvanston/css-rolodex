@@ -1,20 +1,19 @@
+---
+title: columns
+group: columns
+meta:
+  mdn: https://developer.mozilla.org/en-US/docs/Web/CSS/columns
+  caniuse: http://caniuse.com/#search=columns
+---
 
-  ---
-  title: columns
-  group: columns
-  meta:
-    mdn: https://developer.mozilla.org/en-US/docs/Web/CSS/columns
-    caniuse: http://caniuse.com/#search=columns
-  ---
+# columns
+<!--- Introduction for columns, keep it brief and set the overall context -->
 
-  # columns
-  <!--- Introduction for columns, keep it brief and set the overall context -->
+## Syntax
+<!--- Introduce the various syntax for columns -->
 
-  ## Syntax
-  <!--- Introduce the various syntax for columns -->
+### Description
+<!--- For each major section of syntax, provide a description explaining its usage further -->
 
-  ### Description
-  <!--- For each major section of syntax, provide a description explaining its usage further -->
-
-  ### Example
-  <!--- Provide code examples for the syntax block you're currently describing -->
+### Example
+<!--- Provide code examples for the syntax block you're currently describing -->
